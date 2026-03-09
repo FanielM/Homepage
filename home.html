@@ -3,59 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webverse | Dein digitaler Marktplatz</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Webverse | Premium Digitalagentur von Faniel Mululame</title>
     <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
-<header>
-    <a href="#" class="logo"><i class='bx bx-globe'></i> Webverse</a>
-    <ul class="navbar">
-        <li><a href="#home">Start</a></li>
-        <li><a href="#angebot">Mein Angebot</a></li>
-        <li><a href="#kontakt" class="btn-kontakt">Anfrage senden</a></li>
-    </ul>
-</header>
-
-<section class="home" id="home">
-    <div class="home-text">
-        <h1>Webverse: Lokal gewachsen. <br>Digital verbunden.</h1>
-        <p>Willkommen! Hier findest du meine Angebote und kannst direkt mit mir in Kontakt treten.</p>
-        <a href="#angebot" class="btn">Angebot ansehen</a>
-    </div>
-</section>
-
-<section class="angebot" id="angebot">
-    <div class="heading">
-        <h2>Was ich anbiete</h2>
-    </div>
-    <div class="angebot-container">
-        <div class="box">
-            <i class='bx bx-star'></i>
-            <h3>Qualität</h3>
-            <p>Ich biete erstklassige Lösungen für deine Bedürfnisse.</p>
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">WEB<span>VERSE</span></div>
+            <div class="links">
+                <a href="#about">Über uns</a>
+                <a href="#portfolio">Referenzen</a>
+                <a href="#leistungen">Leistungen</a>
+                <a href="#preise">Preise</a>
+            </div>
+            <a href="#kontakt" class="btn-glow-small">Projekt starten</a>
         </div>
-        <div class="box">
-            <i class='bx bx-time-five'></i>
-            <h3>Schnelligkeit</h3>
-            <p>Dein Projekt wird effizient und zügig umgesetzt.</p>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="badge reveal">Willkommen im Webverse</div>
+                <h1 class="reveal delay-1">Wir skalieren Ihr Business ins <span>Unendliche</span>.</h1>
+                <p class="reveal delay-2">Premium Webdesign, messbares Marketing und schnelle Lieferzeiten für Unternehmen, die wachsen wollen.</p>
+                <div class="hero-btns reveal delay-3">
+                    <a href="#portfolio" class="btn-glow">Unsere Arbeit ansehen</a>
+                    <a href="#kontakt" class="btn-outline">Kostenlose Analyse</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Note / Kurzer Blog -->
+        <section id="about" class="section bg-darker">
+            <div class="container">
+                <div class="founder-box reveal">
+                    <div class="founder-text">
+                        <span class="accent-text">Gründer & Visionär</span>
+                        <h2>Hi, ich bin Faniel Mululame.</h2>
+                        <p>Willkommen bei Webverse. Mein Ziel ist es nicht nur, "schöne" Websites zu bauen, sondern digitale Hochleistungsmaschinen zu erschaffen, die für Sie Tag und Nacht Neukunden generieren.</p>
+                        <p>In der heutigen Zeit reicht eine Standard-Seite nicht mehr aus. Man braucht Strategie, Geschwindigkeit und ein Design, das im Kopf bleibt. Genau das liefere ich mit meinem Team – transparent, ehrlich und extrem zielgerichtet.</p>
+                        <div class="founder-sign">Faniel M.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio / Beispiel Websites -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Unsere Referenzen</h2>
+                    <p>Beispiele unserer Arbeit. Modern, blitzschnell und Conversion-optimiert.</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card reveal">
+                        <div class="portfolio-img" style="background: linear-gradient(45deg, #1a1a20, #0066ff);">
+                            <!-- Hier kommt später ein echtes Bild rein -->
+                            <span>E-Commerce Shop</span>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Fashion Brand X</h3>
+                            <p>Kompletter Relaunch mit Fokus auf Mobile-Shopping und extrem schnellen Ladezeiten.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card reveal delay-1">
+                        <div class="portfolio-img" style="background: linear-gradient(45deg, #2a0845, #6441A5);">
+                            <span>Corporate Website</span>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>TechConsulting GmbH</h3>
+                            <p>Seriöses B2B-Design zur Leadgenerierung inklusive SEO-Optimierung.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card reveal delay-2">
+                        <div class="portfolio-img" style="background: linear-gradient(45deg, #11998e, #38ef7d);">
+                            <span>Landingpage</span>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Fitness App Launch</h3>
+                            <p>High-Converting Landingpage für maximale App-Downloads.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leistungen (Kompakt) -->
+        <section id="leistungen" class="section bg-darker">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Unsere Expertise</h2>
+                </div>
+                <div class="bento-grid">
+                    <div class="card reveal">
+                        <i class='bx bx-laptop'></i>
+                        <h3>Web Development</h3>
+                        <p>Blitzschnelle, SEO-optimierte Websites, die auf jedem Gerät perfekt aussehen.</p>
+                    </div>
+                    <div class="card reveal delay-1">
+                        <i class='bx bx-trending-up'></i>
+                        <h3>Marketing & CRO</h3>
+                        <p>Wir optimieren Ihre Conversion-Rate und schalten profitable Kampagnen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preise & Lieferzeiten -->
+        <section id="preise" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Preise & Lieferzeiten</h2>
+                    <p>Keine versteckten Kosten. Klare Deadlines.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="price-card reveal">
+                        <h3>Starter</h3>
+                        <div class="price">€<span>499</span></div>
+                        <ul class="features">
+                            <li class="delivery-time"><i class='bx bx-time-five'></i> <b>Lieferzeit: ca. 7 Tage</b></li>
+                            <li><i class='bx bx-check'></i> Bis zu 3 Unterseiten</li>
+                            <li><i class='bx bx-check'></i> Basis SEO Setup</li>
+                            <li><i class='bx bx-check'></i> Kontaktformular</li>
+                        </ul>
+                        <a href="#kontakt" class="btn-outline w-100">Anfragen</a>
+                    </div>
+                    <div class="price-card pro reveal delay-1">
+                        <div class="popular">Empfehlung</div>
+                        <h3>Business Growth</h3>
+                        <div class="price">€<span>1.299</span></div>
+                        <ul class="features">
+                            <li class="delivery-time highlight-time"><i class='bx bx-rocket'></i> <b>Lieferzeit: 14-21 Tage</b></li>
+                            <li><i class='bx bx-check'></i> Bis zu 10 Unterseiten</li>
+                            <li><i class='bx bx-check'></i> Premium Design & Animationen</li>
+                            <li><i class='bx bx-check'></i> Full SEO & Speed-Optimierung</li>
+                            <li><i class='bx bx-check'></i> 1 Monat kostenloser Support</li>
+                        </ul>
+                        <a href="#kontakt" class="btn-glow w-100">Jetzt durchstarten</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="kontakt" class="section bg-darker">
+            <div class="container max-800">
+                <div class="contact-box reveal">
+                    <h2>Bereit für Ihr neues Webverse?</h2>
+                    <p>Schreiben Sie uns Ihr Anliegen. Faniel und das Team melden sich in Kürze.</p>
+                    <form id="contactForm">
+                        <div class="input-row">
+                            <input type="text" placeholder="Ihr Name" required>
+                            <input type="email" placeholder="Ihre E-Mail" required>
+                        </div>
+                        <textarea rows="5" placeholder="Erzählen Sie uns von Ihrem Projekt..." required></textarea>
+                        <button type="submit" class="btn-glow w-100">Kostenlose Anfrage senden</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>WEB<span>VERSE</span></h3>
+                <p>By Faniel Mululame.</p>
+            </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-<section class="kontakt" id="kontakt">
-    <div class="kontakt-content">
-        <h2>Schreib mir</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Dein Name" required>
-            <input type="email" placeholder="Deine E-Mail" required>
-            <textarea placeholder="Wie kann ich dir helfen?" required></textarea>
-            <button type="submit" class="btn">Absenden</button>
-        </form>
-    </div>
-</section>
-
-<script src="home.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
